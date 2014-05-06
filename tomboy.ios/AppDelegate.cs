@@ -15,6 +15,8 @@ namespace tomboy.ios
 	{
 		// class-level declarations
 		UIWindow window;
+
+		MainNotesScreen mainScreen;
 		//
 		// This method is invoked when the application has loaded and is ready to run. In this
 		// method you should instantiate the window, load the UI into it and then make the window
@@ -29,7 +31,10 @@ namespace tomboy.ios
 			
 			// If you have defined a root view controller, set it here:
 			// window.RootViewController = myViewController;
-			
+			if (mainScreen == null)
+				mainScreen = new MainNotesScreen ();
+			window.RootViewController = mainScreen;
+
 			// make the window visible
 			window.MakeKeyAndVisible ();
 			
