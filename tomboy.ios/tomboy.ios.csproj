@@ -115,4 +115,13 @@
       </Properties>
     </MonoDevelop>
   </ProjectExtensions>
+  <ItemGroup>
+    <Folder Include="Screens\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SWRevealViewControllerBinding\SWRevealViewControllerBinding.csproj">
+      <Project>{896BABD5-06E7-41CE-B5F7-27D849F3BC6B}</Project>
+      <Name>SWRevealViewControllerBinding</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>
