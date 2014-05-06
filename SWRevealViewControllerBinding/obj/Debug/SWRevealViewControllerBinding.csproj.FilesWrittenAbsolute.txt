@@ -1,0 +1,5 @@
+/Users/rashid/Mono_Projects/GSoC_2014/SWRevealViewController-XamarinBinding/SWRevealViewControllerBinding/obj/Debug/MonoTouch,Version=v1.0.AssemblyAttribute.cs
+/Users/rashid/Mono_Projects/GSoC_2014/SWRevealViewController-XamarinBinding/SWRevealViewControllerBinding/bin/Debug/SWRevealViewControllerBinding.dll.mdb
+/Users/rashid/Mono_Projects/GSoC_2014/SWRevealViewController-XamarinBinding/SWRevealViewControllerBinding/bin/Debug/SWRevealViewControllerBinding.dll
+/Users/rashid/Mono_Projects/GSoC_2014/SWRevealViewController-XamarinBinding/SWRevealViewControllerBinding/obj/Debug/SWRevealViewControllerBinding.dll
+/Users/rashid/Mono_Projects/GSoC_2014/SWRevealViewController-XamarinBinding/SWRevealViewControllerBinding/obj/Debug/SWRevealViewControllerBinding.dll.mdb

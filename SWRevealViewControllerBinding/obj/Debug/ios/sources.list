@@ -1,0 +1,6 @@
+obj/Debug/ios/ObjCRuntime/Messaging.g.cs
+obj/Debug/ios/SWRevealViewControllerBinding/SWRevealViewController.g.cs
+obj/Debug/ios/SWRevealViewControllerBinding/SWRevealViewControllerDelegate.g.cs
+obj/Debug/ios/SWRevealViewControllerBinding/SWRevealViewController_UIViewController.g.cs
+obj/Debug/ios/SWRevealViewControllerBinding/SWRevealViewControllerSegue.g.cs
+obj/Debug/ios/ObjCRuntime/Trampolines.g.cs
