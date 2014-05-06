@@ -104,6 +104,14 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
+    <Compile Include="Screens\MainNotesScreen.cs" />
+    <Compile Include="Screens\MainNotesScreen.designer.cs">
+      <DependentUpon>MainNotesScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\NoteTakingScreen.cs" />
+    <Compile Include="Screens\NoteTakingScreen.designer.cs">
+      <DependentUpon>NoteTakingScreen.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
@@ -123,5 +131,9 @@
       <Project>{896BABD5-06E7-41CE-B5F7-27D849F3BC6B}</Project>
       <Name>SWRevealViewControllerBinding</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <InterfaceDefinition Include="Screens\MainNotesScreen.xib" />
+    <InterfaceDefinition Include="Screens\NoteTakingScreen.xib" />
   </ItemGroup>
 </Project>
