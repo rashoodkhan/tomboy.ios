@@ -52,6 +52,9 @@ namespace tomboy.ios
 			View.AddGestureRecognizer (new UISwipeGestureRecognizer(sw => {
 				this.NavigationController.PopToRootViewController (true);
 			}));
+
+			Editing = true;
+			TextEditor.LoadHtmlString ("<html id=\"content\" contenteditable=\"true\" style=\"font-family: Helvetica\">\n\n <body>\n\n   <div>Enter Note Content here..</div>\n\n  </body>\n\n</html>", new NSUrl ("https://www.google.com"));
 		}
 	}
 }
