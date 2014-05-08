@@ -45,6 +45,13 @@ namespace tomboy.ios
 			base.ViewDidLoad ();
 			
 			// Perform any additional setup after loading the view, typically from a nib.
+			BackButton.Clicked += (sender, e) => {
+				this.NavigationController.PopToRootViewController (true);
+			};
+
+			View.AddGestureRecognizer (new UISwipeGestureRecognizer(sw => {
+				this.NavigationController.PopToRootViewController (true);
+			}));
 		}
 	}
 }
