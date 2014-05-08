@@ -28,6 +28,9 @@ namespace tomboy.ios
 {
 	public partial class MainNotesScreen : UIViewController
 	{
+		//Note Taking Screen Controller
+		NoteTakingScreen noteScreen;
+
 		public MainNotesScreen () : base ("MainNotesScreen", null)
 		{
 		}
@@ -43,9 +46,20 @@ namespace tomboy.ios
 		public override void ViewDidLoad ()
 		{
 			base.ViewDidLoad ();
-			
+			this.AddNoteButton.Clicked += (sender, e) => {
+				if(noteScreen == null)
+					noteScreen = new NoteTakingScreen ();
+				this.NavigationController.PushViewController(noteScreen, true);
+			};
 			// Perform any additional setup after loading the view, typically from a nib.
 		}
+
+		public override void ViewWillAppear(bool animated)
+		{
+			base.ViewWillAppear (animated);
+			this.NavigationController.SetNavigationBarHidden (true, animated);
+		}
+			
 	}
 }
 

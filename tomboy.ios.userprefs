@@ -1,11 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhoneRetina.7.0" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhoneRetina4.7.0" />
   <MonoDevelop.Ide.Workbench ActiveDocument="tomboy.ios/Main.cs">
     <Files>
       <File FileName="tomboy.ios/AppDelegate.cs" Line="1" Column="1" />
-      <File FileName="tomboy.ios/Screens/MainNotesScreen.cs" Line="2" Column="20" />
-      <File FileName="tomboy.ios/Screens/NoteTakingScreen.cs" Line="2" Column="21" />
-      <File FileName="tomboy.ios/Main.cs" Line="14" Column="25" />
+      <File FileName="tomboy.ios/Screens/MainNotesScreen.cs" Line="1" Column="1" />
+      <File FileName="tomboy.ios/Screens/NoteTakingScreen.cs" Line="1" Column="1" />
+      <File FileName="tomboy.ios/Main.cs" Line="21" Column="34" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

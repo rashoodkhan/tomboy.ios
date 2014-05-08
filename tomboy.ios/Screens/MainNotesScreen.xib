@@ -6,6 +6,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainNotesScreen">
             <connections>
+                <outlet property="AddNoteButton" destination="E9I-ZW-8K7" id="la7-vF-Boo"/>
                 <outlet property="view" destination="1" id="3"/>
             </connections>
         </placeholder>
@@ -14,37 +15,23 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <navigationBar contentMode="scaleToFill" id="MwH-ge-K0y">
-                    <rect key="frame" x="0.0" y="19" width="320" height="44"/>
+                <navigationBar contentMode="scaleToFill" id="nHS-rA-AQU">
+                    <rect key="frame" x="0.0" y="17" width="320" height="44"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                     <items>
-                        <navigationItem id="StH-mh-ndm">
-                            <barButtonItem key="rightBarButtonItem" systemItem="add" id="ivG-IX-5Lt"/>
+                        <navigationItem title="Tomboy-Notes" id="hdV-VC-Thd">
+                            <barButtonItem key="rightBarButtonItem" systemItem="add" id="E9I-ZW-8K7"/>
                         </navigationItem>
                     </items>
                 </navigationBar>
-                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="6Ja-yn-Pvw">
-                    <rect key="frame" x="0.0" y="436" width="320" height="44"/>
-                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                    <items>
-                        <barButtonItem title="Item" systemItem="trash" id="ApH-41-35x"/>
-                    </items>
-                </toolbar>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Notebook-Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="SeB-dK-z4W">
-                    <rect key="frame" x="96" y="30" width="128" height="21"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" indicatorStyle="black" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="BpT-IR-rLh">
-                    <rect key="frame" x="0.0" y="63" width="320" height="373"/>
-                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                </tableView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
         </view>
+        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" indicatorStyle="black" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="BpT-IR-rLh">
+            <rect key="frame" x="0.0" y="0.0" width="309" height="362"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+        </tableView>
     </objects>
 </document>

@@ -37,7 +37,14 @@ namespace tomboy.ios
 		// class-level declarations
 		UIWindow window;
 
+		// UI Navigation Controller
+		UINavigationController rootNavigationController;
+
+		//Main Notes Screen Controller
 		MainNotesScreen mainScreen;
+
+		NoteTakingScreen noteScreen;
+
 		//
 		// This method is invoked when the application has loaded and is ready to run. In this
 		// method you should instantiate the window, load the UI into it and then make the window
@@ -49,12 +56,18 @@ namespace tomboy.ios
 		{
 			// create a new window instance based on the screen size
 			window = new UIWindow (UIScreen.MainScreen.Bounds);
-			
+
+			rootNavigationController = new UINavigationController ();
+
 			// If you have defined a root view controller, set it here:
 			// window.RootViewController = myViewController;
 			if (mainScreen == null)
 				mainScreen = new MainNotesScreen ();
-			window.RootViewController = mainScreen;
+			//window.RootViewController = mainScreen;
+
+			noteScreen = new NoteTakingScreen ();
+			rootNavigationController.PushViewController (mainScreen, false);
+			window.RootViewController = rootNavigationController;
 
 			// make the window visible
 			window.MakeKeyAndVisible ();
